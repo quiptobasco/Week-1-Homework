@@ -7,7 +7,7 @@ The main purpose of this project is to refactor exisiting code for a company's w
 ![screenshot](https://user-images.githubusercontent.com/87678391/128584500-c3c060f7-9e78-4bcd-95ad-9ee64a0d6b05.png)
 
 ### Links:
-live - https://quiptobasco.github.io/Week-1-Homework/
+live page - https://quiptobasco.github.io/Week-1-Homework/
 
-repo - https://github.com/quiptobasco
+my github - https://github.com/quiptobasco
 
