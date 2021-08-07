@@ -1,9 +1,11 @@
+/* universal selector to set box sizing, padding, and margins for entire page */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* sets background color for body element */
 body {
     background-color: #d9dcd6;
 }
@@ -15,15 +17,19 @@ body {
     color: #ffffff;
 }
 
+/* h1 element for header class */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* h1 element of seo class of header class */
+/* this is what changes the letters SEO in the company's logo */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* nav element of header class */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,25 +38,31 @@ body {
     font-size: 20px;
 }
 
+/* unordered list element of nav element of header class */
 .header nav ul {
     list-style-type: none;
 }
 
+/* list element of unordered list element of nav element of header class */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* sets color and decoration for all anchor elements on page */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* sets font-size for all paragraph elements on page */
 p {
     font-size: 16px;
 }
 
-.background_image {
+/* hero class */
+/* this is the big picture of the people in a meeting */
+.hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -91,43 +103,51 @@ p {
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
+/* h3 element of benefit-lead class */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
+/* img element of benefit-lead class */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* benefit-brand class */
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* h3 element of benefit-brand class */
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* img element of benefit-brand class */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* benefit-cost class */
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* h3 element of benefit-cost class */
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* img element of benefit-cost */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
@@ -143,6 +163,17 @@ p {
     color: #ffffff;
 }
 
+/* img element of search-engine-optimization class */
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+/* h2 element of search-engine-optimization class */
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -150,6 +181,17 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+}
+
+/* img element of online-reputation-management class */
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+/* h2 element of element of online-reputation-management class */
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 .social-media-marketing {
@@ -161,33 +203,18 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
+/* img element of social-media-marketing class */
 .social-media-marketing img {
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* h2 element of social-media-marketing class */
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* sets padding, clear setting, font-family, and text alignment of the footer class  */
 .footer {
     padding: 30px;
     clear: both;
@@ -195,6 +222,7 @@ p {
     text-align: center;
 }
 
+/* sets font-size for the h2 element for the footer class */
 .footer h2 {
     font-size: 20px;
 }
